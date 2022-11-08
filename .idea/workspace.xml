@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7b16cb-7ea0-45b5-8ffd-6b5edec4db61" name="Changes" comment="Shteyman Sergey. Lesson 6 was renamed to Module1_lesson6">
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson1/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson1/task7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson2/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson2/lesson8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson2/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/lesson2/task6.py" afterDir="false" />
+    <list default="true" id="ed7b16cb-7ea0-45b5-8ffd-6b5edec4db61" name="Changes" comment="Shteyman Sergey. Module_2 lesson_2 has been done">
+      <change afterPath="$PROJECT_DIR$/Module_2/lesson3/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/lesson3/task6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +45,7 @@
       <recent name="$PROJECT_DIR$/Module_2/lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesson8">
+  <component name="RunManager" selected="Python.task6 (1)">
     <configuration name="lesson8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +96,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_2_lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_2/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module_2_lesson1/task5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module_2/lesson3/task4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task6 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_2/lesson3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module_2/lesson3/task6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,34 +151,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_2_lesson1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module_2_lesson1/task7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task6 (1)" />
+        <item itemvalue="Python.task4" />
         <item itemvalue="Python.lesson8" />
         <item itemvalue="Python.task6" />
         <item itemvalue="Python.task3" />
-        <item itemvalue="Python.task7" />
-        <item itemvalue="Python.task5" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667888728095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Shteyman Sergey. Module_2 lesson_2 has been done">
+      <created>1667897097932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667897097932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +216,7 @@
     <MESSAGE value="Shteyman Sergey. Lesson 6 has been done" />
     <MESSAGE value="Shteyman Sergey. Lesson 6 was moved" />
     <MESSAGE value="Shteyman Sergey. Lesson 6 was renamed to Module1_lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shteyman Sergey. Lesson 6 was renamed to Module1_lesson6" />
+    <MESSAGE value="Shteyman Sergey. Module_2 lesson_2 has been done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shteyman Sergey. Module_2 lesson_2 has been done" />
   </component>
 </project>

@@ -8,8 +8,7 @@ browser = webdriver.Chrome()
 try:
     browser.get(link)
 
-    input_name = browser.find_element(By.CSS_SELECTOR,
-                                   'input[type="text"].form-control.first[placeholder="Input your first name"]')
+    input_name = browser.find_element(By.XPATH, '//div[@class="first_block"]/div[1]/input')
     input_name.send_keys("Sergey")
 
     input_last_name = browser.find_element(By.CSS_SELECTOR, 'input[placeholder="Input your last name"]')

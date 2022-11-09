@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import unittest
+import pytest
 
 
-def test_site(link: str) -> str:
+def registration_site(link: str) -> str:
     browser = webdriver.Chrome()
 
     browser.get(link)
@@ -31,18 +31,15 @@ def test_site(link: str) -> str:
     return welcome_text
 
 
-class TestAbs(unittest.TestCase):
+def test_1():
+    welcome_text = registration_site("http://suninjuly.github.io/registration1.html")
+    assert "Congratulations! You have successfully registered!" == welcome_text, "Error: registration failure"
 
-    def test_1(self):
-        welcome_text = test_site("http://suninjuly.github.io/registration1.html")
-        self.assertEqual("Congratulations! You have successfully registered!", welcome_text,
-                         "Error: registration failure")
 
-    def test_2(self):
-        welcome_text = test_site("http://suninjuly.github.io/registration2.html")
-        self.assertEqual("Congratulations! You have successfully registered!", welcome_text,
-                         "Error: registration failure")
+def test_2():
+    welcome_text = registration_site("http://suninjuly.github.io/registration2.html")
+    assert "Congratulations! You have successfully registered!" == welcome_text, "Error: registration failure"
 
 
 if __name__ == "__main__":
-    unittest.main()
+    pytest.main()

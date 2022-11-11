@@ -7,12 +7,12 @@ class TestMainPage1():
 
     @classmethod
     def setup_class(self):
-        print("\nstart browser for test suite..")
+        print("\nclass start browser for test suite..")
         self.browser = webdriver.Chrome()
 
     @classmethod
     def teardown_class(self):
-        print("quit browser for test suite..")
+        print("class quit browser for test suite..")
         self.browser.quit()
 
     def test_guest_should_see_login_link(self):
